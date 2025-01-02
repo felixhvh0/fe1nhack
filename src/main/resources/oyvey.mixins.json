@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.alpha432.oyvey.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinClientConnection",
+    "accessor.IInteractionManager",
+    "accessor.AccessorClientWorld",
+    "accessor.AccessorLivingEntity",
+    "accessor.AccessorPlayerMoveC2SPacket",
+    "accessor.EntityVelocityUpdateS2CPacketAccessor",
+    "accessor.PlayerPositionLookS2CPacketAccessor",
+    "accessor.AccessorItemRenderer",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayNetworkHandler",
+    "MixinInGameHud",
+    "MixinKeyboard",
+    "MixinRenderTickCounter",
+    "MixinWorldRenderer",
+    "MixinClientConnection",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayNetworkHandler",
+    "MixinLightmapTextureManager"
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
+

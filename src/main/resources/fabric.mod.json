@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "oyvey",
+  "version": "${version}",
+  "name": "fe1nh4ck",
+  "description": "free and opensource client base",
+  "authors": [
+    "jaxui",
+    "rxxyv"
+  ],
+  "contact": {
+    "repo": "lol no"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "oyvey.accesswidener",
+  "entrypoints": {
+    "client": [
+      "me.alpha432.oyvey.OyVey"
+    ],
+    "main": [
+      "me.alpha432.oyvey.OyVey"
+    ]
+  },
+  "mixins": [
+    "oyvey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
